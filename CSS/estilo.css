@@ -13,38 +13,15 @@ body, h1, h2, p, figure {
 }
 
 body {
+    background-color: rgb(224, 224, 224);
     display: flex;
     flex-direction: column; 
 }
-
-.container1 {
-    background-image: url('../imagens/images.jfif');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    width: 540px;
-    height: 540px;
-}
-
-figure img {
-    width: 100%;
-    height: 100%;
-}
-
-a { text-decoration: none; }
-
-header {
-    padding-left: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: wheat;
-}
-
 .box {
+    border-radius: 10px;
     margin-bottom: 20px;
     color: white;
-    align-items: center;
+    padding: 10px;
     background-color: #f2f2f2;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -53,6 +30,35 @@ header {
     width: 100px;
     height: 100px;
 }
+
+.container1 {
+    background-image: url('../imagens/images.jfif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 540px;
+    /* height: 540px; */
+}
+
+figure img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a { 
+    color: rgb(0, 36, 36)   ;
+    text-decoration: none; 
+}
+
+header {
+    padding-left: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(167, 213, 255);
+}
+
 
 footer {
     background-color:  black;
