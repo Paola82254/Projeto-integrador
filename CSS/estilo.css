@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column; 
 }
+
 .box {
     border-radius: 10px;
     margin-bottom: 20px;
@@ -27,14 +28,15 @@ body {
 }
 
 .box1 {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
 }
 
 .container1 {
     background-image: url('../imagens/images.jfif');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     position: relative;
     max-width: 628px;
     width: 100%;
@@ -43,19 +45,37 @@ body {
 
 .container1 h2 {
     position: absolute;
-    bottom: 55px;
+    width: 100%;
     text-align: right;
+    bottom: 55px;
+    padding-right: 20px;
 }
 
 .container1 p {
     position: absolute;
-    bottom: 20px;
+    width: 100%;
     text-align: right;
+    bottom: 20px;
+    padding-right: 20px;
+}
+
+.horarios {
+    color: black;
+    width: 100%;
+    max-width: 650px;
+    word-break: break-word;
+}
+
+.lado {
+    box-sizing: content-box;
+    width: 100%;
+    padding: 5px;
 }
 
 figure img {
     border-radius: 10px;
     width: 100%;
+    max-width: 736px;
     height: 100%;
 }
 
