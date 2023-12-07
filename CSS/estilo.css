@@ -86,6 +86,10 @@ header {
     background-color: rgb(167, 213, 255);
 }
 
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 footer {
     background-color:  black;
