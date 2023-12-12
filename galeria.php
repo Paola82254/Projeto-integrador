@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    
     <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
 
     <link rel="stylesheet" href="css/estilos.css">
@@ -73,14 +72,10 @@
     </div>
 </main>
     <footer>
-<p>Simplicity é um site fictício desenvolvido para fins educacionais &copy; <b>Senac Penha</b> - <time>2023</time>   </p>
+<p>Simplicity é um site fictício desenvolvido para fins educacionais por alunos do Curso Programador Web - 2023 &copy; <b>Senac Penha</b> - <time>2023</time>   </p>
     </footer>
-
-        <!-- IMPORTAÇÃO DA BIBLIOTECA JQUERY -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-    <!-- Importação do JS do plugin/extensão LIGHTBOX -->
-    <script src="lightbox/js/lightbox.min.js"></script> 
+        <script src="lightbox/js/lightbox.min.js"></script> 
     
     <script>
     lightbox.option({
